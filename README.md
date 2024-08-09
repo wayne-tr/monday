@@ -23,3 +23,7 @@ Add fontawesome CDN (in index.html)
 
 Add routes folder
 useRoutes hook
+
+# Step 4: Tailwind CSS
+
+https://tailwindcss.com/docs/guides/vite
