@@ -81,3 +81,8 @@ npm i --save @nestjs/config <br/>
 Add .env file APP_PORT=8080<br/>
 Add config/app folder: config.module.ts, config.service.ts, configuration.ts <br/>
 Config namespace in nestjs/config <br/>
+
+## STep 13: Class validator
+
+npm i --save class-validator class-transformer <br/>
+Auto-validation: app.useGlobalPipes(new ValidationPipe()) <br/>
