@@ -42,3 +42,13 @@ Create redux store (store data outside of component context) <br/>
 Add redux/configStore.js <br/>
 Wrap provider tag in main.jsx <br/>
 Install redux-devtools chrome extension <br/>
+
+## Step 7: Axios
+
+https://axios-http.com/docs/intro <br />
+Interceptors: Handle data between BE and FE (token auth, response, status code ) <br/>
+Add services/axios.config.js: https.interceptors.request.use <br/>
+Use https from axios.config in component <br/>
+baseURL in axios.create() <br/>
+https://axios-http.com/docs/config_defaults <br />
+Config response to get only the data part in https.interceptors.response <br/>
