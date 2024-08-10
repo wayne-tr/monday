@@ -69,3 +69,8 @@ Download MySQL docker image <br/>
 Create a docker container with MySQL image <br/>
 docker run --name monday-sql -e MYSQL_ROOT_PASSWORD=19941004 -p 3306:3306 -d mysql:latest <br/>
 Table Plus <br/>
+
+## Step 11: Swagger for nestjs
+
+npm install --save @nestjs/swagger <br/>
+setup in main.ts
