@@ -1,8 +1,9 @@
 import { DatePicker } from "antd";
 import { useRoutes } from "react-router-dom";
-import { Demo } from "../Components/Demo";
+import { Demo2 } from "../Components/Demo2";
 
 const useRoutesCustom = () => {
+
     let element = useRoutes([
     {
         path: "/home",
@@ -10,7 +11,7 @@ const useRoutesCustom = () => {
     },
     {
         path: "/demo",
-        element: <Demo />,
+        element: <Demo2 />,
     },
     ]);
 

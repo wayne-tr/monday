@@ -52,3 +52,8 @@ Use https from axios.config in component <br/>
 baseURL in axios.create() <br/>
 https://axios-http.com/docs/config_defaults <br />
 Config response to get only the data part in https.interceptors.response <br/>
+
+## Step 8: Formik (Form management and input validation)
+
+Formik <br/>
+yup validation <br/>
