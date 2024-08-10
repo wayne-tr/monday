@@ -74,3 +74,10 @@ Table Plus <br/>
 
 npm install --save @nestjs/swagger <br/>
 setup in main.ts
+
+## Step 12: Config Nest (backend)
+
+npm i --save @nestjs/config <br/>
+Add .env file APP_PORT=8080<br/>
+Add config/app folder: config.module.ts, config.service.ts, configuration.ts <br/>
+Config namespace in nestjs/config <br/>
