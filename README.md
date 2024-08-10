@@ -32,3 +32,13 @@ https://tailwindcss.com/docs/guides/vite
 
 ant.design
 npm install antd --save
+
+## Step 6: Redux toolkit (state management)
+
+https://redux-toolkit.js.org/tutorials/quick-start
+npm install @reduxjs/toolkit react-redux
+
+Create redux store (store data outside of component context)
+Add redux/configStore.js
+Wrap provider tag in main.jsx
+Install redux-devtools chrome extension
