@@ -8,7 +8,7 @@ const InputCustom = ({placeholder, onChange, onBlur, value}) => {
         type="text" 
         placeholder={placeholder}
         value={value}
-        className="py-2 px-4 rounded border border-gray-400 hover:border-black focus:border-black focus-visible:outline-none"
+        className="py-2 px-4 rounded border border-gray-400 hover:border-black focus:border-black focus-visible:outline-none w-full"
       />
     </div>
   )
