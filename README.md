@@ -86,3 +86,11 @@ Config namespace in nestjs/config <br/>
 
 npm i --save class-validator class-transformer <br/>
 Auto-validation: app.useGlobalPipes(new ValidationPipe()) <br/>
+
+## Step 14: Connect DB to Nestjs
+
+TypeORM: npm install --save @nestjs/typeorm typeorm mysql2 <br/>
+Async config: create config/database folder
+Create provider folder
+
+## Step 15: Signup
