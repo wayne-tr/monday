@@ -4,6 +4,7 @@ import { Demo2 } from "../Components/Demo2";
 import { SignUpNew } from "../pages/SignUpNew/SignUpNew";
 import GetInfoRegister from "../pages/GetInfoRegister/GetInfoRegister";
 import SurveyQuestion from "../pages/SurveyQuestion/SurveyQuestion";
+import InviteMember from "../pages/InviteMember/InviteMember";
 
 const useRoutesCustom = () => {
 
@@ -19,7 +20,11 @@ const useRoutesCustom = () => {
     {
         path: "/setup",
         element: < GetInfoRegister/>,
-    },  
+    },
+    {
+        path: "/invite",
+        element: < InviteMember/>,
+    },   
     {
         path: "/demo-1",
         element: <><DatePicker ></DatePicker><h1 className="text-3xl font-bold underline text-center">Home</h1></>,

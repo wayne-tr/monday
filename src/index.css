@@ -2,12 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
-.register_input, .survey_radio {
+.register_input, .survey_radio, .content_field{
     flex: 8 1 0%;
     @apply space-y-8;
+}
+
+.ant-select-dropdown {
+    width: max-content !important;
 }
 
 .radio_style .ant-radio-wrapper {
     @apply px-4 py-2 border border-gray-300 rounded-2xl my-2;
     color: #676879;
+}
+
+.content_field .ant-select-item-option-content {
+    font-weight: 400;
 }
